@@ -22,3 +22,6 @@
 .App-link {
   color: #61dafb;
 }
+.ui.card {
+width: 100% !important;
+}
