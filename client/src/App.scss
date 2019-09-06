@@ -13,6 +13,8 @@ width: 100% !important;
   height: 20px;
   position: relative;
   width: 40px;
+  margin-top: 4%;
+  margin-right: 3%;
 }
 
 .toggle {
@@ -33,8 +35,12 @@ width: 100% !important;
   background-color: lightgray;
   border: none;
   margin-bottom: 2%;
+  display: flex;
+
   h1 {
     padding-top: 3%;
+    width: 70%;
+    margin: 3% 15% 3% 20%;
   }
 
 }
