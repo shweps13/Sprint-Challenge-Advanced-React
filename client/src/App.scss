@@ -32,10 +32,11 @@ width: 100% !important;
 }
 
 .navbar {
-  background-color: lightgray;
+  background-color: rgb(221, 224, 224);
   border: none;
   margin-bottom: 2%;
   display: flex;
+  border-bottom: 1px solid lightgray;
 
   h1 {
     padding-top: 3%;
@@ -52,7 +53,6 @@ width: 100% !important;
   .navbar {
     background-color: #1F2022;
     border: none;
-
-
   }
+
 }
