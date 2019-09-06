@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import DisplayCard from "./components/DisplayCard"
 import { render, fireEvent } from '@testing-library/react'
 import nock from 'nock';
 import waitUntil from 'async-wait-until';
@@ -23,7 +22,8 @@ test('contains header sign', () => {
   getByText(/players list/i);
 });
 
-// test('contains first and last names in array', () => {
-//   const { getAllByText } = render(<App />);
-//   getAllByText(/alex morgan/i, /tierna davidson/i);
-// });
+test('Component fetching data from API', async () => {
+  nock('http://localhost:5000/')
+  .get('/api/players')
+  .reply(200);
+});
