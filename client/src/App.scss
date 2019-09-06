@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.ui.card {
+width: 100% !important;
+}
+
+.dark-mode__toggle {
+  background: papayawhip;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.toggle {
+  background: #f68819;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 18px;
+}
+
+.navbar {
+  background-color: lightgray;
+  border: none;
+  margin-bottom: 2%;
+  h1 {
+    padding-top: 3%;
+  }
+
+}
+
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+
+  .navbar {
+    background-color: #1F2022;
+    border: none;
+
+
+  }
+}

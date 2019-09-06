@@ -1,8 +1,9 @@
 import React from "react";
-import './App.css';
+import './App.scss';
+import { Container, Header, Segment, Grid } from 'semantic-ui-react'
 
 import DisplayCard from "./components/DisplayCard"
-import { Container, Header, Segment, Grid } from 'semantic-ui-react'
+import Navbar from "./components/Navbar"
 
 class App extends React.Component {
 
@@ -27,9 +28,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1>Women's World Cup</h1>
-        </header>
+        <Navbar />
         <Container text>
       <Segment raised>
       <Header as='h1' textAlign='center'>Players list</Header>
