@@ -33,7 +33,7 @@ class App extends React.Component {
         <Container text>
       <Segment raised>
       <Header as='h1' textAlign='center'>Players list</Header>
-        <Grid columns={1} divided divided='vertically'>
+        <Grid columns={1} divided='vertically'>
           <Grid.Row >
         <Grid.Column >
         <DisplayCard players={this.state.players} />
