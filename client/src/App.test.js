@@ -27,3 +27,9 @@ test('Component fetching data from API', async () => {
   .get('/api/players')
   .reply(200);
 });
+
+test('Looking for first and last name from rendered array',  async ()=>{
+  const {findByText} = await render(<App />)
+  findByText(/[alex morgan]/i)
+  findByText(/[tierna davidson]/i)
+})
